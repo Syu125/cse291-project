@@ -1,0 +1,10 @@
+original_column,sample_id,condition,label
+_dyn_#Non-severe-COVID-19.XG15.Non-severe-COVID-19..XG15.1_intensity_for_peptide_variant,XG15,Non-severe-COVID-19,0
+_dyn_#Non-severe-COVID-19.XG22.Non-severe-COVID-19..XG22.1_intensity_for_peptide_variant,XG22,Non-severe-COVID-19,0
+_dyn_#Severe-COVID-19.XG46.Severe-COVID-19..XG46.1_intensity_for_peptide_variant,XG46,Severe-COVID-19,1
+_dyn_#Non-severe-COVID-19.XG16.Non-severe-COVID-19..XG16.1_intensity_for_peptide_variant,XG16,Non-severe-COVID-19,0
+_dyn_#Severe-COVID-19.XG36.Severe-COVID-19..XG36.1_intensity_for_peptide_variant,XG36,Severe-COVID-19,1
+_dyn_#Non-severe-COVID-19.XG4.Non-severe-COVID-19..XG4.1_intensity_for_peptide_variant,XG4,Non-severe-COVID-19,0
+_dyn_#Severe-COVID-19.Patient-group-ZX.Severe-COVID-19..Patient-group-ZX.1_intensity_for_peptide_variant,Patient-group-ZX,Severe-COVID-19,1
+_dyn_#Severe-COVID-19.XG39.Severe-COVID-19..XG39.1_intensity_for_peptide_variant,XG39,Severe-COVID-19,1
+_dyn_#Non-severe-COVID-19.XG19.Non-severe-COVID-19..XG19.1_intensity_for_peptide_variant,XG19,Non-severe-COVID-19,0

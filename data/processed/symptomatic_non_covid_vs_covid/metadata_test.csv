@@ -1,0 +1,15 @@
+original_column,sample_id,condition,label,label_name
+_dyn_#Non-severe-COVID-19.XG10.Non-severe-COVID-19..XG10.1_intensity_for_peptide_variant,XG10,Non-severe-COVID-19,1,COVID-19
+_dyn_#Symptomatic-non-COVID-19.JBDZ5.Symptomatic-non-COVID-19..JBDZ5.1_intensity_for_peptide_variant,JBDZ5,Symptomatic-non-COVID-19,0,Symptomatic-non-COVID-19
+_dyn_#Non-severe-COVID-19.XG22.Non-severe-COVID-19..XG22.1_intensity_for_peptide_variant,XG22,Non-severe-COVID-19,1,COVID-19
+_dyn_#Non-severe-COVID-19.XG23.Non-severe-COVID-19..XG23.1_intensity_for_peptide_variant,XG23,Non-severe-COVID-19,1,COVID-19
+_dyn_#Severe-COVID-19.XG27.Severe-COVID-19..XG27.1_intensity_for_peptide_variant,XG27,Severe-COVID-19,1,COVID-19
+_dyn_#Non-severe-COVID-19.XG15.Non-severe-COVID-19..XG15.1_intensity_for_peptide_variant,XG15,Non-severe-COVID-19,1,COVID-19
+_dyn_#Symptomatic-non-COVID-19.JBDZ19.Symptomatic-non-COVID-19..JBDZ19.1_intensity_for_peptide_variant,JBDZ19,Symptomatic-non-COVID-19,0,Symptomatic-non-COVID-19
+_dyn_#Severe-COVID-19.XG26.Severe-COVID-19..XG26.1_intensity_for_peptide_variant,XG26,Severe-COVID-19,1,COVID-19
+_dyn_#Non-severe-COVID-19.XG6.Non-severe-COVID-19..XG6.1_intensity_for_peptide_variant,XG6,Non-severe-COVID-19,1,COVID-19
+_dyn_#Non-severe-COVID-19.XG9.Non-severe-COVID-19..XG9.1_intensity_for_peptide_variant,XG9,Non-severe-COVID-19,1,COVID-19
+_dyn_#Symptomatic-non-COVID-19.JBDZ15.Symptomatic-non-COVID-19..JBDZ15.1_intensity_for_peptide_variant,JBDZ15,Symptomatic-non-COVID-19,0,Symptomatic-non-COVID-19
+_dyn_#Non-severe-COVID-19.XG2.Non-severe-COVID-19..XG2.1_intensity_for_peptide_variant,XG2,Non-severe-COVID-19,1,COVID-19
+_dyn_#Symptomatic-non-COVID-19.JBDZ16.Symptomatic-non-COVID-19..JBDZ16.1_intensity_for_peptide_variant,JBDZ16,Symptomatic-non-COVID-19,0,Symptomatic-non-COVID-19
+_dyn_#Symptomatic-non-COVID-19.JBDZ22.Symptomatic-non-COVID-19..JBDZ22.1_intensity_for_peptide_variant,JBDZ22,Symptomatic-non-COVID-19,0,Symptomatic-non-COVID-19

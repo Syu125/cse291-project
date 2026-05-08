@@ -1,0 +1,4 @@
+task,train_samples,test_samples,features,train_label_counts,test_label_counts
+healthy_vs_infected,72,18,35882,"{'Infected': 54, 'Healthy': 18}","{'Infected': 14, 'Healthy': 4}"
+symptomatic_non_covid_vs_covid,54,14,35882,"{'COVID-19': 34, 'Symptomatic-non-COVID-19': 20}","{'COVID-19': 9, 'Symptomatic-non-COVID-19': 5}"
+severe_vs_nonsevere,34,9,35882,"{'Non-severe-COVID-19': 20, 'Severe-COVID-19': 14}","{'Non-severe-COVID-19': 5, 'Severe-COVID-19': 4}"
