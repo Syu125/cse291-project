@@ -1,2 +1,2 @@
 task,best_loss,best_C,top_k_features,train_samples,test_samples,cv_accuracy_mean,cv_balanced_accuracy_mean,cv_f1_mean,cv_roc_auc_mean,cv_auprc_mean,test_accuracy,test_balanced_accuracy,test_precision,test_recall,test_f1,test_roc_auc,test_auprc
-severe_vs_nonsevere,hinge,0.01,5000,34,9,0.761904761904762,0.7916666666666666,0.7666666666666666,0.7416666666666666,0.72,0.8888888888888888,0.875,1.0,0.75,0.8571428571428571,1.0,1.0
+severe_vs_nonsevere,hinge,0.01,5000,34,9,0.761904761904762,0.7916666666666666,0.7666666666666666,0.7416666666666666,0.72,0.7777777777777778,0.8,0.6666666666666666,1.0,0.8,1.0,1.0
