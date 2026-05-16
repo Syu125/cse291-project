@@ -1,0 +1,2 @@
+task,best_n_estimators,best_max_depth,best_min_samples_split,best_min_samples_leaf,best_max_features,top_k_features,train_samples,test_samples,cv_accuracy_mean,cv_balanced_accuracy_mean,cv_f1_mean,cv_roc_auc_mean,cv_auprc_mean,test_accuracy,test_balanced_accuracy,test_precision,test_recall,test_f1,test_roc_auc,test_auprc
+severe_vs_nonsevere,200,3,2,5,sqrt,1000,34,9,0.6142857142857142,0.6083333333333333,0.5366666666666666,0.7166666666666666,0.7307936507936508,0.4444444444444444,0.45,0.4,0.5,0.4444444444444444,0.7,0.7678571428571428
