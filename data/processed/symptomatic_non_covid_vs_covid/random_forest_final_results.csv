@@ -1,0 +1,2 @@
+task,best_n_estimators,best_max_depth,best_min_samples_split,best_min_samples_leaf,best_max_features,top_k_features,train_samples,test_samples,cv_accuracy_mean,cv_balanced_accuracy_mean,cv_f1_mean,cv_roc_auc_mean,cv_auprc_mean,test_accuracy,test_balanced_accuracy,test_precision,test_recall,test_f1,test_roc_auc,test_auprc
+symptomatic_non_covid_vs_covid,200,3,2,5,sqrt,1000,54,14,0.7963636363636363,0.7464285714285714,0.8574165050635638,0.8154761904761905,0.904871160585446,1.0,1.0,1.0,1.0,1.0,1.0,1.0000000000000002
