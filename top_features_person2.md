@@ -1,0 +1,48 @@
+# Top Logistic Regression Features (Person 2 Assignment)
+
+## Healthy vs. Infected (Top 10 by |coefficient|)
+1. K.[304.207]SLHTLFGD(K,332.213)L(C,57.021)TVA.T (0.44)
+2. K.[304.207](C,57.021)(C,57.021)AAADPHE.C (0.40)
+3. D.[304.207](K,203.075)SLHTLFGD(K,304.207).L (0.40)
+4. K.[304.207]L(K,331.18)E(C,57.021)(C,57.021)E(K,304.207)PLLE(K,304.207).S (0.29)
+5. K.[304.207]ADSVVDLLSYNV(Q,303.212)GSGETTYDH(K,304.207).N (0.26)
+6. S.[304.207]IGYADSV(K,304.207).G (0.26)
+7. R.[304.207]TLADLTLLDSPI(K,304.207).V (0.24)
+8. K.[304.207](K,376.233)VPQVSTPTLVEVSR.N (0.22)
+9. S.[236.123]LHTLFGD(K,304.207).L (0.20)
+10. F.[304.207](K,291.14)DLGEENF(K,304.207).A (0.19)
+
+## Severe vs. Non-severe (Top 10 by |coefficient|)
+1. R.[304.207]EANYIG(S,304.212)D(K,304.207)YFHAR.G (0.14)
+2. R.{290.173}[304.207]EGT(C,57.021)PEAPTDE(C,57.021)(K,304.207)PV(K,304.207).W (0.12)
+3. R.[304.207]GDAV(C,57.021)TESG(W,31.997)RPLPS(C,57.021)EE(K,304.207).S (0.09)
+4. K.[304.207](T,-13.036)(C,57.021)VADESAEN(C,57.021)D(K,304.207).S (0.07)
+5. K.[304.207](V,290.171)DNALQSGNSQESVTEQDS(K,304.207).D (0.07)
+6. R.[304.207](F,-13.032)(K,304.207)DLGEENF(K,304.207).A (0.07)
+7. N.[186.070]E(C,57.021)FLQH(K,304.207)DDNPNLPR.L (0.06)
+8. R.[304.207]GPGGAWAAEVISNAR.E (0.06)
+9. R.[304.207]SG(K,304.207)DPNHFRPAGLPE(K,304.207).Y (0.05)
+10. K.[304.207]DLLLPQPDLR.Y (0.05)
+
+## Symptomatic non-COVID vs. COVID (Top 10 by |coefficient|)
+1. K.[304.207](C,85.056)(C,57.021)TESLVNR.R (0.69)
+2. K.[304.207]QTALVELV(K,229.166).H (0.68)
+3. K.[229.166]AEFAEVS(K,304.207).L (0.48)
+4. R.{291.173}[304.207]ILGGHLDA(K,304.207).G (0.37)
+5. K.[304.207]SLHTLFGD(K,332.213)L(C,57.021)TVA.T (0.36)
+6. K.[304.207]LVD(K,304.207)FLED(V,272.169)(K,304.207).K (0.30)
+7. R.[304.207](F,-57.06)(K,304.207)DLGEENF(K,304.207).A (0.24)
+8. K.[304.207]AEFAEV(S,31.006)(K,304.207).L (0.24)
+9. K.[304.207](C,57.021)(C,57.021)AAADPHE.C (0.20)
+10. K.[304.207]GTV(N,49.023)LTWSRA.S (0.19)
+
+---
+
+**Person 3 & 4:**
+These are the top features/peptides for each task. Please use these for downstream validation and differential abundance analysis.
+
+---
+
+## Next Steps for Person 2
+- [ ] Create heatmaps and histograms of these top features for Severe vs. Non-severe.
+- [ ] Share this file with Persons 3 & 4 (done above).
