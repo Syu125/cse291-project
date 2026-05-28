@@ -76,11 +76,11 @@ Final processed data:
 
 The 50% missingness threshold is used as a practical reliability filter: peptides missing in most samples are more likely to be unstable, dominated by non-detection, and sensitive to imputation. This threshold keeps peptides observed in at least half of the patient cohort while still retaining a large feature set.
 
-## Baseline Model - Logistic Regression
+## Baseline Model - Random Choice
 
-We have considered regularized logistic regression as a strong baseline for this dataset because the number of peptide features is much larger than the number of patient samples. Regularization helps control overfitting, and L1/Elastic Net can shrink many coefficients to zero, giving interpretable peptide-level feature selection.
+We use a random-choice classifier as the baseline for this dataset. It provides a simple chance-level reference for the three binary tasks, which makes it easier to judge how much signal the learned models are capturing.
 
-The baseline evaluates:
+The comparison models evaluate:
 
 - Standard L2 logistic regression with `C=1`
 - L2 regularization with multiple `C` values
@@ -100,6 +100,8 @@ Metrics include balanced accuracy, F1 score, ROC-AUC, precision, recall, and num
 
 ## Logistic Regression Results
 
+Random-choice baseline results are saved alongside the model comparison tables so the baseline reference stays explicit in the reported outputs.
+
 Results are saved in:
 
 ```text
@@ -117,6 +119,40 @@ Best model by cross-validation balanced accuracy for each task:
 | `severe_vs_nonsevere` | `elasticnet_C=1_l1_ratio=0.5` | 0.806 | 0.781 | 1.000 | 1.000 | 1.000 | 840 |
 
 Several models achieve perfect held-out test scores, but the task-specific test sets are small. These test results should therefore be interpreted as preliminary rather than strong evidence of generalization.
+
+## Updated Comparison Table
+
+The following table summarizes the performance metrics for all models across the three tasks:
+
+| Task                          | Model                 | Accuracy | Balanced Accuracy | Precision | Recall | F1 Score | ROC AUC | AUPRC |
+|-------------------------------|-----------------------|----------|-------------------|-----------|--------|----------|---------|-------|
+| Healthy vs Infected           | Logistic Regression   | 1.00     | 1.00              | 1.00      | 1.00   | 1.00     | 1.00    | 1.00  |
+| Healthy vs Infected           | Random Forest         | 0.89     | 0.75              | 0.88      | 1.00   | 0.93     | 1.00    | 1.00  |
+| Healthy vs Infected           | SVM                   | 0.78     | 0.86              | 1.00      | 0.71   | 0.83     | 0.98    | 1.00  |
+| Healthy vs Infected           | XGBoost (Nonlinear)   | 0.94     | 0.88              | 0.93      | 1.00   | 0.97     | 1.00    | 1.00  |
+| Healthy vs Infected           | Random Baseline       | 0.64     | 0.50              | 0.78      | 0.75   | 0.76     | 0.50    | 0.76  |
+| Severe vs Non-severe          | Logistic Regression   | 1.00     | 1.00              | 1.00      | 1.00   | 1.00     | 1.00    | 1.00  |
+| Severe vs Non-severe          | Random Forest         | 0.44     | 0.42              | 0.33      | 0.25   | 0.29     | 0.55    | 0.64  |
+| Severe vs Non-severe          | SVM                   | 0.78     | 0.80              | 0.67      | 1.00   | 0.80     | 1.00    | 1.00  |
+| Severe vs Non-severe          | XGBoost (Nonlinear)   | 0.78     | 0.75              | 1.00      | 0.50   | 0.67     | 0.80    | 0.83  |
+| Severe vs Non-severe          | Random Baseline       | 0.51     | 0.50              | 0.44      | 0.41   | 0.41     | 0.50    | 0.42  |
+| Symptomatic Non-COVID vs COVID| Logistic Regression   | 1.00     | 1.00              | 1.00      | 1.00   | 1.00     | 1.00    | 1.00  |
+| Symptomatic Non-COVID vs COVID| Random Forest         | 0.64     | 0.50              | 0.64      | 1.00   | 0.78     | 0.96    | 0.98  |
+| Symptomatic Non-COVID vs COVID| SVM                   | 0.86     | 0.89              | 1.00      | 0.78   | 0.88     | 0.93    | 0.97  |
+| Symptomatic Non-COVID vs COVID| XGBoost (Nonlinear)   | 1.00     | 1.00              | 1.00      | 1.00   | 1.00     | 1.00    | 1.00  |
+| Symptomatic Non-COVID vs COVID| Random Baseline       | 0.54     | 0.50              | 0.64      | 0.63   | 0.63     | 0.50    | 0.63  |
+
+## Overall Accuracy Comparison
+
+The following table provides an overall accuracy comparison across all models:
+
+| Model               | Overall Accuracy |
+|---------------------|------------------|
+| Logistic Regression | 1.00            |
+| Random Forest       | 0.66            |
+| SVM                 | 0.80            |
+| XGBoost (Nonlinear) | 0.91            |
+| Random Baseline     | 0.56            |
 
 ## Result Plots
 
