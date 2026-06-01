@@ -1,0 +1,6 @@
+task,protein,n_unique_top_peptides_tested,n_significant_unique_top_peptides,majority_direction,protein_level_effect_among_top_features,evidence
+healthy_vs_infected,sp|P01782|HV309_HUMAN,1,1,higher_in_Healthy,False,single_top_peptide_evidence_only
+healthy_vs_infected,sp|P04114|APOB_HUMAN,2,2,higher_in_Infected,True,protein_level_effect_among_top_features
+severe_vs_nonsevere,sp|P02750|A2GL_HUMAN,1,1,higher_in_Severe-COVID-19,False,single_top_peptide_evidence_only
+severe_vs_nonsevere,sp|P02787|TRFE_HUMAN,1,1,higher_in_Non-severe-COVID-19,False,single_top_peptide_evidence_only
+severe_vs_nonsevere,sp|P0DJI9|SAA2_HUMAN,1,1,higher_in_Severe-COVID-19,False,single_top_peptide_evidence_only

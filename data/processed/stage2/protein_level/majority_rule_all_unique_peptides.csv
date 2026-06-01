@@ -1,0 +1,16 @@
+task,protein,n_unique_peptides_tested,n_significant_unique_peptides,fraction_significant_unique_peptides,majority_direction,protein_level_effect,evidence
+healthy_vs_infected,sp|P01782|HV309_HUMAN,10,1,0.1,higher_in_Healthy,False,mixed_or_minority_peptide_effect
+healthy_vs_infected,sp|P02750|A2GL_HUMAN,33,0,0.0,none,False,no_consistent_protein_level_effect
+healthy_vs_infected,sp|P02787|TRFE_HUMAN,881,1,0.0011350737797956867,higher_in_Healthy,False,mixed_or_minority_peptide_effect
+healthy_vs_infected,sp|P04114|APOB_HUMAN,428,27,0.0630841121495327,higher_in_Infected,False,mixed_or_minority_peptide_effect
+healthy_vs_infected,sp|P0DJI9|SAA2_HUMAN,15,2,0.13333333333333333,higher_in_Infected,False,mixed_or_minority_peptide_effect
+severe_vs_nonsevere,sp|P01782|HV309_HUMAN,9,0,0.0,none,False,no_consistent_protein_level_effect
+severe_vs_nonsevere,sp|P02750|A2GL_HUMAN,33,0,0.0,none,False,no_consistent_protein_level_effect
+severe_vs_nonsevere,sp|P02787|TRFE_HUMAN,875,1,0.001142857142857143,higher_in_Non-severe-COVID-19,False,mixed_or_minority_peptide_effect
+severe_vs_nonsevere,sp|P04114|APOB_HUMAN,426,0,0.0,none,False,no_consistent_protein_level_effect
+severe_vs_nonsevere,sp|P0DJI9|SAA2_HUMAN,15,2,0.13333333333333333,higher_in_Severe-COVID-19,False,mixed_or_minority_peptide_effect
+symptomatic_non_covid_vs_covid,sp|P01782|HV309_HUMAN,9,0,0.0,none,False,no_consistent_protein_level_effect
+symptomatic_non_covid_vs_covid,sp|P02750|A2GL_HUMAN,32,0,0.0,none,False,no_consistent_protein_level_effect
+symptomatic_non_covid_vs_covid,sp|P02787|TRFE_HUMAN,854,1,0.00117096018735363,higher_in_COVID-19,False,mixed_or_minority_peptide_effect
+symptomatic_non_covid_vs_covid,sp|P04114|APOB_HUMAN,414,0,0.0,none,False,no_consistent_protein_level_effect
+symptomatic_non_covid_vs_covid,sp|P0DJI9|SAA2_HUMAN,15,0,0.0,none,False,no_consistent_protein_level_effect
